@@ -6,4 +6,6 @@ module com.example.gameproject {
 
     opens com.example.gameproject to javafx.fxml;
     exports com.example.gameproject;
+    exports com.example.gameproject.Controllers;
+    opens com.example.gameproject.Controllers to javafx.fxml;
 }
